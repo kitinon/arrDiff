@@ -1,7 +1,7 @@
 ## How many ways you can diff two arrays?
 
-### 1) First version using filter.
-Basically, takes out all elements of Array1 that also exists in Array2 and vice versa.  This version is our baseline.  The complexity of this algorithem is O(N^2)
+### 1) First version
+Basically, takes out all elements of Array1 that also exists in Array2 and vice versa.  This version is our baseline.  The complexity of this algorithem is O(N^2).
 
 ### 2) Map version
 Using the elements of array as keys in a map, we can check quickly if we already have this element before.  Thank to hashing table in the map implementation, we can reduce to O(N•log(N)).
